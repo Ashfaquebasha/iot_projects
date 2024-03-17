@@ -45,7 +45,7 @@ void loop() {
    
     mySerial.println("AT+CMGF=1");    //To send SMS in Text Mode
     delay(1000);
-    mySerial.println("AT+CMGS=\"+917013370846\"\r"); //Change to destination phone number
+    mySerial.println("AT+CMGS=\"+91xxxxxxxxxx\"\r"); //Change xxxxxxxxxx to your destination phone number
     delay(1000);
    mySerial.println("food");
     mySerial.println((char)26); //the stopping character Ctrl+Z
@@ -64,7 +64,7 @@ void loop() {
     
     mySerial.println("AT+CMGF=1");    //To send SMS in Text Mode
     delay(1000);
-    mySerial.println("AT+CMGS=\"+917013370846\"\r"); //Change to destination phone number
+    mySerial.println("AT+CMGS=\"+91xxxxxxxxxx\"\r"); //Change xxxxxxxxxx to your destination phone number
     delay(1000);
     mySerial.println("medicine");//the content of the message
     delay(200);
